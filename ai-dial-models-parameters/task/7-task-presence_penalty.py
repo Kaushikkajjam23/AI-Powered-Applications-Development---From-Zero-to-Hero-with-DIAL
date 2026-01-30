@@ -13,6 +13,8 @@ run(
     print_only_content=True,
     # TODO:
     #  Use `presence_penalty` parameter with different range (-2.0 to 2.0)
+    presence_penalty=1.3,
+    print_request=True,
 )
 
 # In the final result, we can see that the higher `presence_penalty` (2.0) the more LLM is trying to add topics that

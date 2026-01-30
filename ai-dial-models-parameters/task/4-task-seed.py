@@ -13,6 +13,10 @@ run(
     # TODO:
     #  1. Use `seed` parameter with value 42 (or whatever you want)
     #  2. Use `n` parameter with value 5
+    seed=42,
+    n=5,
+    print_request=True, # Switch to False if you do not want to see the request in  
+    print_only_content=False, # Switch to True if you want to see only content from response
 )
 
 # Check the content in choices. The expected result is that in almost all choices the result will be the same.
